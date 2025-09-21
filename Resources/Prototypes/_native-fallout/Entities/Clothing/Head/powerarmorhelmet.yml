@@ -6,7 +6,7 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _native-fallout//Clothing/Head/PowerArmorHelmets/BoS_Mоjave/t51mojavebos.rsi
+    sprite: _native-fallout/Clothing/Head/PowerArmorHelmets/BoS_Mоjave/t51mojavebos.rsi
     layers:
     - state: icon
     - state: icon-unshaded
@@ -59,7 +59,7 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: _native-fallout//Clothing/Head/PowerArmorHelmets/t45ncr.rsi
+    sprite: _native-fallout/Clothing/Head/PowerArmorHelmets/t45ncr.rsi
     layers:
     - state: icon
     - state: icon-unshaded
