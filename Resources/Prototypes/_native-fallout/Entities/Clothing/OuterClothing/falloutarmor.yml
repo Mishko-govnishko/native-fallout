@@ -1,0 +1,69 @@
+#MARK: Armor
+#MARK: Mojave BoS
+- type: entity
+  parent: N14ClothingOuterMBoSInitiateArmor
+  id: N14ClothingOuterMojaveBoSInitiateArmor
+  name: initiate armor
+  description: A suit of combat armor used by the Knights in the Mojave Brotherhood of Steel.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/InitiateArmor.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/InitiateArmor.rsi
+
+- type: entity
+  parent: N14ClothingOuterMBoSSquireArmor
+  id: N14ClothingOuterMojaveBoSSquireArmor
+  name: squire armor
+  description: A set of light armor used by the Mojave Brotherhood's Squires. It's a bit light on actual plating, but insulates from the cold.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/SquireArmor.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/SquireArmor.rsi
+
+- type: entity
+  parent: N14ClothingOuterMBoSKnightArmor
+  id: N14ClothingOuterMojaveBoSKnightArmor
+  name: knight armor
+  description: A suit of combat armor used by the Mojave Brotherhood's Knights. Almost identical to pre-war sets issued to the military.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/KnightArmor.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/KnightArmor.rsi
+
+- type: entity
+  parent: N14ClothingOuterMBoSSeniorKArmor
+  id: N14ClothingOuterMojaveBoSSeniorKArmor
+  name: senior knight armor
+  description: A suit of combat armor used by the Mojave Brotherhood's Senior Knights. It's slightly sturdier than the average rank & file troop's gear.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/SeniorKArmor.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/SeniorKArmor.rsi
+
+- type: entity
+  parent: N14ClothingOuterMBoSPaladinArmor
+  id: N14ClothingOuterMojaveBoSPaladinArmor
+  name: paladin armor
+  description: A suit of sturdy armor used by the Mojave Brotherhood's Paladins. Seems to cover almost every inch of one's torso.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/PaladinArmor.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/PaladinArmor.rsi
+
+- type: entity
+  parent: N14ClothingOuterMidwestReconArmor
+  id: N14ClothingOuterMojaveBoSReconArmor
+  name: recon armor
+  description: A suit of recon armor manufactured by the Mojave Brotherhood, reserved for only higher ranked members.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/ReconArmor.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/Armor/BoS_Mоjave/ReconArmor.rsi
+  - type: ToggleableClothing
+    clothingPrototype: N14ClothingHeadHatBrotherhoodMojaveHelmetRecon

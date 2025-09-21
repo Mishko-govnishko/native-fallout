@@ -1,0 +1,10 @@
+# See Objects/Decoration/flags.yml for flag items. See wallmounts folder for wall flags.
+- type: entity
+  parent: N14DecorationFlagFlammable
+  id: N14DecorationFlagBrotherhoodMojave
+  name: Mojave Brotherhood flag
+  description: A blue and black flag with a sword surrounded in gears and wings.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Structures/Decoration/flags.rsi
+    state: mojavebosflag
