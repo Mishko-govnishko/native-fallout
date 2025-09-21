@@ -1,0 +1,20 @@
+# Flags
+- type: entity
+  parent: N14FlagWallUS
+  id: N14FlagWallMojaveBrotherhood
+  suffix: Mojave BOS
+  description: A Mojave Brotherhood of Steel flag.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Structures/Wallmounts/walldecor2.rsi
+    state: flag_Mojave_BoS
+
+- type: entity
+  parent: N14FlagWallUS
+  id: N14FlagWallUglyDogsGang
+  suffix: Ugly dogs
+  description: A Ugly Dogs flag.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Structures/Wallmounts/walldecor2.rsi
+    state: flag_Ugly_Dogs

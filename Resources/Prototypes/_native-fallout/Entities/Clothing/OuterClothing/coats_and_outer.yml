@@ -1,0 +1,11 @@
+#MARK: Mojave BoS
+- type: entity
+  parent: N14ClothingOuterBrotherhoodMidwestMedicalScribeRobes
+  id: N14ClothingOuterMojaveBrotherhoodScribeRobes
+  name: Mojave Brotherhood Scribe coat
+  description: A finely made robe affixed with leather worn by Scribes, a symbol of the Mojave Brotherhood emblazoned across the chest and back.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/Coats/brotherhoodmojavemedicalscribe.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/Coats/brotherhoodmojavemedicalscribe.rsi

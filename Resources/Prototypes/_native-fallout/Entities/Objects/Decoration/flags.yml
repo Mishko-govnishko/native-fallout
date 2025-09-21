@@ -1,0 +1,11 @@
+  #Mojave BoS Flagpole
+- type: entity
+  parent: N14DecorationFlagpoleNCR
+  id: N14DecorationFlagpoleMojaveBOS
+  name: Brotherhood flag pole
+  description: A Midwestern Brotherhood flag on a wooden pole.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Objects/Decoration/Flags/mojavebos_flagpole.rsi
+    state: icon
+    noRot: true

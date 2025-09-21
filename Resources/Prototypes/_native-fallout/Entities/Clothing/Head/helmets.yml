@@ -1,0 +1,38 @@
+# Mojave BoS
+- type: entity
+  parent: N14ClothingHeadHatBaseHelmetMetal
+  id: N14ClothingHeadHatBrotherhoodMojaveHelmet
+  name: Mojave BoS helmet
+  description: A modified combat helmet to adapt to the Mojave Brotherhood's needs.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/Head/FalloutHelmets/BoS_Mоjave/mojaveboshelmet.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/Head/FalloutHelmets/BoS_Mоjave/mojaveboshelmet.rsi
+
+- type: entity
+  parent: N14ClothingHeadHatBaseHelmetMK2
+  id: N14ClothingHeadHatBrotherhoodMojaveHelmetVeteran
+  name: veteran Mojave BoS helmet
+  description: A modified combat helmet with extra metal plates to cover the face.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/Head/FalloutHelmets/BoS_Mоjave/mojaveboshelmetV2.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/Head/FalloutHelmets/BoS_Mоjave/mojaveboshelmetV2.rsi
+
+- type: entity
+  parent: N14ClothingHeadHatBrotherhoodMidwestHelmetRecon
+  id: N14ClothingHeadHatBrotherhoodMojaveHelmetRecon
+  name: Mojave BoS recon helmet
+  description: A helmet made by the Mojave Brotherhood, expertly designed for both protection and stealth.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/Head/FalloutHelmets/BoS_Mоjave/mojavebosreconhelmet.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/Head/FalloutHelmets/BoS_Mоjave/mojavebosreconhelmet.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair

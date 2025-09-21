@@ -1,0 +1,70 @@
+- type: entity
+  parent: N14ClothingOuterPowerArmorT45
+  id: N14ClothingOuterPowerArmorT51MojaveBoS
+  name: mojave paladin power armor
+  description: The
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/PowerArmor/BoS_Mоjave/t51mojavebos.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/PowerArmor/BoS_Mоjave/t51mojavebos.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.425
+        Slash: 0.425
+        Piercing: 0.475
+        Heat: 0.475
+        Caustic: 0.75
+        Radiation: 0.6
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.55
+  - type: UserInterface
+    interfaces:
+      enum.ToggleClothingUiKey.Key:
+        type: ToggleableClothingBoundUserInterface
+  - type: ToggleableClothing
+    clothingPrototypes: 
+      head: N14ClothingHeadHelmetPowerArmorT51MojaveBoS
+      gloves: N14ClothingPAGauntlets
+      shoes: N14ClothingPABoots
+      back: N14ClothingPowerSystemsBack
+  - type: Reflect
+    reflectProb: 0.1
+
+- type: entity
+  parent: N14ClothingOuterPowerArmorT45
+  id: N14ClothingOuterPowerArmorT45ScorchedSierra
+  name: Scorched Sierra power armor
+  description: The scorched Sierra power armor is a suit of T-45d power armor that has been modified by the NCR for High rank officers in field.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Clothing/OuterClothing/PowerArmor/t45sierra.rsi
+  - type: Clothing
+    sprite: _native-fallout/Clothing/OuterClothing/PowerArmor/t45sierra.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.5
+        Heat: 0.5
+        Caustic: 0.75
+        Radiation: 0.6
+  - type: TemperatureProtection
+    coefficient: 0.55
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: UserInterface
+    interfaces:
+      enum.ToggleClothingUiKey.Key:
+        type: ToggleableClothingBoundUserInterface
+  - type: ToggleableClothing
+    clothingPrototypes: 
+      gloves: N14ClothingPAGauntlets
+      shoes: N14ClothingPABoots
+      back: N14ClothingPowerSystemsBack
+  - type: Reflect
+    reflectProb: 0.55
