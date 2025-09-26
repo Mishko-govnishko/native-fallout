@@ -8,3 +8,13 @@
   - type: Sprite
     sprite: _native-fallout/Structures/Decoration/flags.rsi
     state: mojavebosflag
+
+- type: entity
+  parent: N14DecorationFlagFlammable
+  id: N14DecorationFlagLegion
+  name: Legion flag
+  description: A red and yellow flag with a big bull.
+  components:
+  - type: Sprite
+    sprite: _native-fallout/Structures/Decoration/flags.rsi
+    state: legionflag

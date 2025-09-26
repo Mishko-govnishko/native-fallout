@@ -82,6 +82,7 @@
   description: A Legion flag.
   components:
   - type: Sprite
+    sprite: _native-fallout/Structures/Wallmounts/walldecor2.rsi #Sirius change
     state: flag_legion
 
 - type: entity
